@@ -38,8 +38,14 @@ const Sidebar = () => {
 
                 </a>
 
-
+            
             </div>
+
+        <div className="copyright">
+            <p>	&#169; Rusheel Sharma 2023</p>  
+        </div>
+          
+
         </div>
     );
 
