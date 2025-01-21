@@ -65,28 +65,34 @@ html, body {
 .portfolio-section {
     margin: 20px 0;
     padding: 20px;
-    background-color: #f9f9f9; /* Light gray background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+    border-radius: 10px; 
+
   }
   
   .portfolio-heading {
-    font-size: 24px; /* Slightly larger font for headings */
+    font-size: 24px; 
     font-weight: bold;
-    color: #333; /* Dark gray for readability */
+    color: black; 
     margin-bottom: 10px;
   }
 
   .portfolio-description {
-  font-size: 16px; /* Readable font size */
-  line-height: 1.6; /* Better spacing between lines */
-  color: #555; /* Medium gray for text */
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: black; 
+    text-align: center; 
+    margin-top: 10px; 
 }
 
 .title {
-    color: black;
-    font-size: 50px;
+    font-size: 32px; 
+    font-weight: bold; 
+    color: #2F4F4F; 
+    text-align: center; 
     margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1.5px;
 }
 
 #links {
@@ -118,11 +124,10 @@ html, body {
 
 .project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px;
     padding: 20px;
 }
-
 
 .project-card {
     background-color: #ffffff;
@@ -144,21 +149,18 @@ html, body {
 
 .project-image {
     width: 100%;
-    height: auto;
-    max-height: 180px;
-    object-fit: cover;
+    height: 180px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures proper cropping without distortion */
     border-radius: 5px;
     margin-bottom: 15px;
 }
 
-
 .project-card h3 {
-    font-size: 18px;
+    font-size: 20px; 
     margin-bottom: 10px;
     color: #2F4F4F;
     text-align: center;
 }
-
 
 .project-technologies {
     display: flex;
@@ -180,7 +182,7 @@ html, body {
 
 
 .project-card p {
-    font-size: 14px;
+    font-size: 16px; 
     text-align: center;
     color: #333;
     margin-bottom: 15px;
@@ -195,7 +197,8 @@ html, body {
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-} 
+    cursor: pointer; 
+}
 
 .project-link:hover {
     background-color: #468282;
