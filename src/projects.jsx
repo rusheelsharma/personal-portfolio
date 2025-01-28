@@ -3,6 +3,7 @@ import vipulProject from './assets/vipul-project.jpg';
 import bettermuscle from './assets/bettermuscle.png';
 import shell from './assets/shell.jpg';
 import stock from './assets/stock.jpg'
+import fuse from './assets/fuse.jpg'
 
 const Projects = () => {
     const projects = [
@@ -32,7 +33,7 @@ const Projects = () => {
         },
         {
             id: 4,
-            image: vipulProject,
+            image: fuse,
             title: "FUSE-based File System",
             technologies: ["C"],
             description: "Developed a custom FUSE-based filesystem in C for CS3650, mounting a 1MB disk image as a virtual drive. Supported file and directory operations, efficient block management, and metadata structures for dynamic allocation. Ensured robustness and performance using OSTEP principles, extensive testing, and maintainable code. Code available upon request.",

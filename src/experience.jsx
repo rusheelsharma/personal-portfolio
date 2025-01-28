@@ -12,7 +12,7 @@ const Experience = () => {
             id: 2,
             title: "Software Developer Intern",
             date: "January 2024 – Present",
-            location: "Boston, MA",
+            location: "Kino - Rank and Share Movies: Boston, MA",
             description:
                 "Collaborated with a team to build and test a movie-ranking platform using Swift and SwiftUI. Designed dynamic pages with reusable UI components and implemented unit testing. Conducted beta testing with 20+ users to improve front-end layouts.",
         },
@@ -20,7 +20,7 @@ const Experience = () => {
             id: 3,
             title: "Product Intern",
             date: "July 2022 – September 2022",
-            location: "Omnify Inc., Bangalore, India",
+            location: "Omnify Inc. : Bangalore, India",
             description:
                 "Used SEO tools to improve domain ranking and conducted market research surveys with 100+ clients for a new product launch. Designed and delivered wireframes with a team of 6 UI/UX designers.",
         },
@@ -28,7 +28,7 @@ const Experience = () => {
             id: 4,
             title: "Co-founder and Co-developer",
             date: "August 2021 – February 2022",
-            location: "Better Muscle: Progressive Overload | GitHub",
+            location: "Better Muscle: Progressive Overload, Gurgaon, India",
             description:
                 "Developed a workout-logging app using Ionic React and PostgreSQL. Enabled users to log exercises and track progress efficiently, leading to over 200 downloads on the Play Store.",
         },
